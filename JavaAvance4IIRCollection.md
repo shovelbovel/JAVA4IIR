@@ -6,7 +6,7 @@
 
 Fait par IKTACHE Chouaib
 
-<img src="6.jpeg" style="height:200px;margin-right:432px"/>
+<img src="4.jpeg" style="height:200px;margin-right:432px"/>
 
 
 ***
@@ -833,6 +833,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
