@@ -221,11 +221,18 @@ class GestionTaches {
 ### Quiz sur les Listes (ArrayList et LinkedList)
 
 1. Quelle implémentation offre un accès en temps constant par index ?
+-->ArrayList, car elle est basée sur un tableau dynamique
 2. Quelles sont les complexités d'ajout au milieu d'un ArrayList vs LinkedList ?
+-->ArrayList : O(n) (décalage des éléments nécessaires)
+-->LinkedList : O(1) si on a la référence du nœud (sinon O(n) pour le trouver)
 3. Quelle structure utilise des pointeurs pour gérer les éléments ?
+-->LinkedList, qui relie chaque élément au précédent et au suivant par des pointeurs
 4. Peut-on insérer des doublons dans une List ?
+-->Oui, une List (ArrayList, LinkedList) autorise les doublons.
 5. Quelles sont les différences majeures entre ArrayList et LinkedList ?
-
+-->ArrayList : accès rapide (O(1)), insertion/suppression lente au milieu.
+-->LinkedList : accès lent (O(n)), insertion/suppression rapide (O(1)).
+-->ArrayList consomme moins de mémoire que LinkedList (qui garde des références supplémentaires).
 ***
 
 ## Interface Set
@@ -466,11 +473,15 @@ public class Personne {
 ### Quiz sur les Sets (HashSet, LinkedHashSet, TreeSet)
 
 1. Quelle est la différence fondamentale entre HashSet et TreeSet ?
+-->HashSet ne maintient aucun ordre, tandis que TreeSet trie automatiquement les éléments.
 2. Comment TreeSet maintient-il l'ordre des éléments ?
+-->En utilisant un arbre binaire de recherche équilibré (Red-Black Tree) et l’ordre naturel ou un Comparator.
 3. Que doit implémenter une classe pour être ajoutée dans un TreeSet ?
+-->L’interface Comparable (ou fournir un Comparator externe).
 4. Quelle méthode est utilisée par HashSet pour gérer l'unicité ?
+-->Les méthodes hashCode() et equals()
 5. Quel est l'avantage de LinkedHashSet par rapport à HashSet ?
-
+-->LinkedHashSet conserve l’ordre d’insertion tout en évitant les doublons
 ***
 
 ## Interface Queue
@@ -558,10 +569,15 @@ public class ExempleArrayDeque {
 ### Quiz sur les Queues et Deques
 
 1. Quelle est la principale différence entre Queue et Deque ?
+-->Queue fonctionne selon le principe FIFO (First In First Out),tandis que Deque permet d’ajouter et de retirer des éléments aux deux extrémités
 2. Quel mode de fonctionnement Deque permet-il en plus ?
+-->Le mode LIFO (Last In First Out) , comme une pile .
 3. Comment s'appelle la méthode pour insérer en début de Deque ?
+-->addFirst()
 4. Quel est l'avantage d'ArrayDeque par rapport à LinkedList comme Queue ?
+-->ArrayDeque est plus rapide et plus léger (pas de pointeurs) pour les opérations FIFO/LIFO
 5. PriorityQueue maintient-elle l'ordre d'insertion ?
+-->Non, elle trie les éléments selon leur ordre naturel ou leur priorité, pas selon l’ordre d’ajout.
 
 ***
 
@@ -813,6 +829,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
