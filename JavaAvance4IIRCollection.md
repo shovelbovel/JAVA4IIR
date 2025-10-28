@@ -5,6 +5,10 @@
 *Destiné aux étudiants de 4 IIR - EMSI Casablanca*
 
 Fait par IKTACHE Chouaib
+
+<img src="2.jpeg" style="height:464px;margin-right:432px"/>
+
+
 ***
 
 ## Introduction
@@ -829,6 +833,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
