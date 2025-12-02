@@ -347,8 +347,8 @@ Vous devriez voir un fichier similaire à ceci :
 
 #### Étape 1 : Ajouter la section properties
 Juste après la balise `<version>`, ajoutez :
-
-```xml
+a utiliser pour injecter le mot de passe , l'adress url de la base de donner et autre chose...
+``xml 
 <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
